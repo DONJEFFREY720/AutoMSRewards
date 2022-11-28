@@ -27,10 +27,7 @@ def imageFind(image,g,double):
 
     return a,b
 
-passw = p.password("Enter password: ")
-while(sha256(passw.encode('utf-8')).hexdigest() != "enter your account password hash here"):
-    print("Wrong password")
-    passw = p.password("Enter password: ")
+
     
 p.hotkey("win","d")
 imageFind("Edge.JPG",False,True)
